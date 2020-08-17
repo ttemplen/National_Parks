@@ -22,8 +22,6 @@ The lab will be broken down into two parts:
 1. Install dependencies.
 1. Fulfill the listed requirements.
 
-Please turn in your submission by the deadline on your cohort calendar.
-
 ## Requirements
 
 You will be building out a website listing all of the National Parks.
