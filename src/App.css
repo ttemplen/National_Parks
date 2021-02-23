@@ -1,0 +1,42 @@
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.top{
+    vertical-align: bottom;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+header{
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+}
+a{text-decoration: none;}
+a:link{
+    color:white;
+}
+a:visited {
+    color: white;
+  }
+ footer {
+      background-color: black;
+      height: 150px;
+  }
+  #FooterImage{
+    padding-right: 50px; 
+    padding-left: 60%;
+    position: relative;
+    display: inline; 
+    height: 60px;
+    width: auto;
+      
+  }
+  #FooterNPS {
+text-align: center;
+margin-top: 50%     s;
+  }
+  

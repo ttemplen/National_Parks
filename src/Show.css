@@ -1,0 +1,39 @@
+
+body{
+    align-items: center;
+}
+.mainImage {
+    height: 600px;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    
+}
+button {
+    background-color: black;
+    color: white;
+}
+form {
+    font-weight: bold;
+}
+h3 {
+    color: white;
+    margin-top: -40px;
+    padding-left: 30px;
+}
+.parkInfo {
+    color: white;
+    background-color: black;
+    width: auto;
+    padding: 30px 30px 30px 30px;
+    margin: 10px;
+}
+.img_space{
+    position: relative;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+
+
+
