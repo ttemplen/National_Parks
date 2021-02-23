@@ -3,11 +3,20 @@ import { Switch, Route, Link, Redirect } from 'react-router-dom';
 import './Show.css';
 export default class Show extends Component {
     render() {
+
         let parkId = this.props.match.params.id
         let ParkData = this.props.parks.find(value =>
             value.id === parkId
         )
-        console.log(ParkData)
+
+        const parksImages = ParkData.images.map((value, index) =>
+            <div key={index}>
+
+                <img src={value.url}></img>
+
+            </div>
+
+        )
         return (
             <div>
                 <div >
@@ -37,11 +46,8 @@ export default class Show extends Component {
                     </form><br />
                   Images <br />
                     <div className='img_space'>
-                        <img src={ParkData.images[1].url} />
-                        <img src={ParkData.images[2].url} />
-                        <img src={ParkData.images[3].url} />
-                        <img src={ParkData.images[4].url} />
-                        
+                            {parksImages}
+
                     </div>
                 </p>
             </div>
